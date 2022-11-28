@@ -1,0 +1,52 @@
+#Logged_in_sec{
+    background-color: yellow;
+}
+
+#Logged_in{
+     padding: 6px;
+     display: block;
+     text-align: center;
+}
+
+#Logged_in img{
+height: 42px;
+width: 42px;
+background-color: white;
+border-radius: 29.8px;
+}
+
+#Logged_in small{
+font-size: 15.9px;
+background-color: blue;
+color: white;
+padding-left: 6.9px;
+padding-right: 6.9px;
+padding-top: 2px;
+padding-bottom: 2.9px;
+border-radius: 15.9px;
+}
+
+form input[type='Submit']{
+color: white;
+background-color: black;
+cursor: pointer;
+border-radius: 15.9px;
+}
+
+#Logged_in input[type='Submit']:hover{
+color: white;
+background-color: red;
+cursor: pointer;
+border-radius: 15.9px;
+}
+
+a .imgs{
+height: 15%;
+width: 31%;
+border: 2px solid black;
+border-radius: 19.9px;
+}
+
+a .imgs:hover{
+border: 2px solid green;
+}

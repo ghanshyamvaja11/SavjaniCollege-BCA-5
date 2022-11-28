@@ -1,0 +1,1773 @@
+#Motive{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-size: 29px;
+    padding-bottom: 2.9px;
+ }
+ #Motive img{
+     height: 569px;
+     width: 100%;
+     border: .2px solid white;
+ }
+ #Motive h6{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #Motive marquee{
+     height: 96px;
+ }
+ #Motive a input{
+     height: 42px;
+     font-size: 15px;
+     border-radius: 29px;
+     font-weight: bolder;
+     background-color: red;
+     color: white;
+ }
+ 
+ #Motive a input:hover{
+     background-color: skyblue;
+ }
+ 
+ #New-Announcements legend{
+     color: white;
+     background-color: blue;
+     border-radius: 29px;
+     font-size: 29px;
+     padding-left: 9px;
+     padding-left: 9px;
+     text-align: center;
+ }
+ #New-Announcements fieldset{
+     height: 200px;
+     width: 600px;
+ }
+ 
+ #New-Announcements #anchor a:hover{
+     text-align: center;
+     font-size: 29px;
+     text-decoration: none;
+     color: blue;
+ }
+ 
+ #View-More{
+     text-align: center;
+ }
+ #View-More input{
+     background-color: blue;
+     height: 42px;
+     color: white;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 29px;
+     cursor: pointer;
+ }
+ 
+ #BKNMU{
+     text-align: center;
+     background-color: rgb(248, 238, 131);
+     border-radius: 29px;
+ }
+ #BKNMU h1{
+     padding-left: 15px;
+     padding-right: 15px;
+     color: white;
+     background-color: red;
+     border-radius: 29px;
+     font-size: 29px;
+ }
+ #BKNMU img{
+     border-radius: 15px;
+ }
+ #BKNMU_div{
+     text-align: center;
+ }
+ div #BknmuBtn{
+     height:51px;
+     color: white;
+     background-color: blue;
+     border-radius: 29px;
+     font-size: 15px;
+     font-weight: bolder;
+     text-align: center;
+     cursor: pointer;
+ }
+ 
+ #photo-Gallary{
+     background-color: rgba(210, 214, 92, 0.693);
+     border-radius: 15px;
+ }
+ 
+ #photo-Gallary marquee img{
+     height: 345px;
+     width: 36%;
+     border: 2px solid white;
+     border-radius: 9.2px;
+ }
+ 
+ #photo-Gallary h1{
+     text-align: center;
+     color: white;
+     background-color: red;
+     font-size: 32px;
+     padding-bottom: 6px;
+     border-radius: 29px;
+ }
+ 
+ #Video-Gallary{
+     text-align: center;
+     background-color: rgba(210, 214, 92, 0.693);
+ }
+ 
+ #Video-Gallary h1{
+     color: white;
+     background-color: red;
+     font-size: 29px;
+     padding-bottom: 6px;
+     border-radius: 29px;
+ }
+ #Video-Gallary iframe{
+     height: 500px; 
+     width: 645px;
+     border: 2px solid white;
+ }
+ 
+ #Principal{
+     padding-top: 2px;
+     background-color: rgb(106, 210, 247);
+ }
+ #Principal h4{
+     display: inline;
+     font-size: 29px;
+     background-color: rgb(31, 35, 245);
+     padding-left: 9px;
+     padding-right: 9px;
+     padding-top: -5px;
+     padding-bottom: 2px;
+     border-radius: 29px;
+     color: gold;
+ }
+ #Principal img{
+     display: block;
+     height: 290px;
+     width: 200px;
+     border-radius: 15px;
+     border: 2px solid gold;
+ }
+ 
+ /*Responsiveness*/
+ 
+ /*Extra small devices(Phones, 600px and down*/
+ @media only screen and (min-width: 320px){
+     #Motive img {
+         height: 213px;
+         width: 100%;
+         padding-bottom: 1px;
+     }  
+ 
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 15px;
+     }
+ 
+     #Motive a input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 19px;
+     }    
+ 
+     #New-Announcements fieldset {
+         height: 150px;
+         width: 30px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 119px;
+         width: 265px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 15px;
+     }
+ 
+     #View-More input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #View-More input:hover{
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 19px;
+     }
+ 
+     #BKNMU img {
+         height: 298px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #photo-Gallary marquee img{
+         height: 209px;
+         width: 96%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 173px;
+         width: 298px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 360px;
+         width: 260px;
+         border-radius: 15px;
+         border: 2px solid gold;
+         padding-top: 0px;
+     }
+ 
+     #Principal marquee{
+         height: 41px;
+         width: 268px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 32px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 351px){
+     #Motive img {
+         height: 213px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 15px;
+     }
+ 
+     #Motive a input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 19px;
+     }    
+ 
+     #New-Announcements fieldset {
+         height: 150px;
+         width: 30px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 119px;
+         width: 265px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 15px;
+     }
+     
+     #View-More input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #View-More input:hover{
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 19px;
+     }
+ 
+     #BKNMU img {
+         height: 298px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #photo-Gallary marquee img{
+         height: 209px;
+         width: 96%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 173px;
+         width: 298px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 360px;
+         width: 260px;
+         border-radius: 15px;
+         border: 2px solid gold;
+         padding-top: 0px;
+     }
+ 
+     #Principal marquee{
+         height: 41px;
+         width: 268px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 32px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 375px){
+     #Motive img {
+         height: 322px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 75px;
+     }
+     #Motive h6 {
+         font-size: 15px;
+     }
+ 
+     #Motive a input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #Motive a input:hover{
+         background-color: skyblue;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 26px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 150px;
+         width: 320px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 119px;
+         width: 265px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 19px;
+     }
+ 
+     #View-More input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #View-More input:hover{
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 19px;
+     }
+ 
+     #BKNMU img {
+         height: 351px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 15px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #photo-Gallary marquee img{
+         height: 209px;
+         width: 78%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 182px;
+         width: 298px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 360px;
+         width: 260px;
+         border-radius: 15px;
+         border: 2px solid gold;
+         padding-top: 0px;
+     }
+ 
+     #Principal marquee{
+         height: 41px;
+         width: 268px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 32px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 425px){
+     #Motive img {
+         height: 322px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 75px;
+     }
+     #Motive h6 {
+         font-size: 15px;
+     }
+ 
+     #Motive a input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #Motive a input:hover{
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 26px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 150px;
+         width: 320px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 119px;
+         width: 265px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 19px;
+     }
+ 
+     #View-More input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #View-More input:hover{
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 19px;
+     }
+ 
+     #BKNMU img {
+         height: 351px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 15px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #photo-Gallary marquee img{
+         height: 218px;
+         width: 69%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 206.6px;
+         width: 345px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 360px;
+         width: 260px;
+         border-radius: 15px;
+         border: 2px solid gold;
+         padding-top: 0px;
+     }
+ 
+     #Principal marquee{
+         height: 41px;
+         width: 268px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 32px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px){
+     #Motive img {
+         height: 290px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 50px;
+     }
+     #Motive h6 {
+         font-size: 14px;
+     }
+ 
+     #Motive a input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #Motive a input:hover{
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 26px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 200px;
+         width: 320px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 159px;
+         width: 350px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 15px;
+     }
+ 
+     #View-More input {
+         height: 29px;
+         font-size: 15px;
+     }
+ 
+     #View-More input:hover{
+         height: 32px;
+         font-size: 24px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 19px;
+     }
+ 
+     #BKNMU img {
+         height: 351px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 14px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 24px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 245px;
+         width: 59%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 19px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 215.6px;
+         width: 350px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 360px;
+         width: 263px;
+         border-radius: 15px;
+         border: 2px solid gold;
+         padding-top: 0px;
+     }
+ 
+     #Principal marquee{
+         height: 36px;
+         width: 265px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 29px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 768px){
+     #Motive img {
+         height: 346px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 19px;
+     }
+ 
+     #Motive a input {
+         height: 29px;
+         font-size: 19px;
+     }
+ 
+     #Motive a input:hover{
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 32px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 200px;
+         width: 500px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 155px;
+         width: 490px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 19px;
+     }
+ 
+     #View-More input {
+         height: 29px;
+         font-size: 19px;
+     }
+ 
+     #View-More input:hover{
+         height: 32px;
+         font-size: 24px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 29px;
+     }
+ 
+     #BKNMU img {
+         height: 351px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 19px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 24px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 29px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 285px;
+         width: 51%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 29px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 221px;
+         width: 359px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 392px;
+         width: 290px;
+         border-radius: 15px;
+         border: 2px solid gold;
+         padding-top: 0px;
+     }
+ 
+     #Principal marquee{
+         height: 36px;
+         width: 290px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 29px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 992px){
+     #Motive img {
+         height: 384px;
+         width: 968px;
+         padding-bottom: 1px;
+     }
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 19px;
+     }
+ 
+     #Motive a input {
+         height: 29px;
+         font-size: 19px;
+     }
+ 
+     #Motive a input:hover{
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 32px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 200px;
+         width: 500px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 155px;
+         width: 490px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 26px;
+     }
+ 
+     #New-Announcements #anchor .a1:hover{
+         text-align: center;
+         color: red;
+         font-size:32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a2:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a3:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+ 
+     #View-More input {
+         height: 29px;
+         font-size: 19px;
+     }
+ 
+     #View-More input:hover{
+         height: 32px;
+         font-size: 24px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 29px;
+     }
+ 
+     #BKNMU img {
+         height: 351px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 19px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 24px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 29px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 285px;
+         width: 42%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 29px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 281px;
+         width: 452px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 425px;
+         width: 294px;
+         border-radius: 15px;
+         border: 2px solid gold;
+         padding-top: 0px;
+     }
+ 
+     #Principal marquee{
+         height: 36px;
+         width: 290px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 29px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 1024px){
+     #Motive img {
+         height: 365px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 19px;
+     }
+ 
+     #Motive a input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #Motive a input:hover{
+         height: 42px;
+         font-size: 29px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 42px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 200px;
+         width: 600px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 155px;
+         width: 490px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 24px;
+     }
+ 
+     #New-Announcements #anchor .a1:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a2:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a3:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+ 
+     #View-More input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #View-More input:hover{
+         height: 42px;
+         font-size: 29px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 42px;
+     }
+ 
+     #BKNMU img {
+         height: 411px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 24px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 29px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 351px;
+         width: 51%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 344.8px;
+         width: 559px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 425px;
+         width: 294px;
+         border-radius: 15px;
+         border: 2px solid gold;
+     }
+ 
+     #Principal marquee{
+         height: 36px;
+         width: 290px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 29px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 1200px){
+     #Motive img {
+         height: 371px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 19px;
+     }
+ 
+     #Motive a input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #Motive a input:hover{
+         height: 42px;
+         font-size: 29px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 32px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 200px;
+         width: 600px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 155px;
+         width: 490px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 24px;
+     }
+ 
+     #New-Announcements #anchor .a1:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a2:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a3:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+ 
+     #View-More input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #View-More input:hover{
+         height: 42px;
+         font-size: 29px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 42px;
+     }
+ 
+     #BKNMU img {
+         height: 411px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 24px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 29px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 351px;
+         width: 42%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 344.8px;
+         width: 559px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 425px;
+         width: 294px;
+         border-radius: 15px;
+         border: 2px solid gold;
+     }
+ 
+     #Principal marquee{
+         height: 36px;
+         width: 290px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 29px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 1440px){
+     #Motive img {
+         height: 465px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 19px;
+     }
+ 
+     #Motive a input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #Motive a input:hover{
+         height: 42px;
+         font-size: 29px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 42px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 260px;
+         width: 659px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 220px;
+         width: 659px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 26px;
+     }
+ 
+     #New-Announcements #anchor .a1:hover{
+         text-align: center;
+         color: red;
+         font-size:32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a2:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a3:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+ 
+     #View-More input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #View-More input:hover{
+         height: 42px;
+         font-size: 29px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 42px;
+     }
+ 
+     #BKNMU img {
+         height: 411px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 24px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 29px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 351px;
+         width: 36%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 400.5px;
+         width: 654px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 425px;
+         width: 294px;
+         border-radius: 15px;
+         border: 2px solid gold;
+     }
+ 
+     #Principal marquee{
+         height: 51px;
+         width: 298px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 42px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 1450px){
+     #Motive img {
+         height: 465px;
+         width: 100%;
+         padding-bottom: 1px;
+     }
+ 
+     #Motive marquee {
+         height: 69px;
+     }
+     #Motive h6 {
+         font-size: 19px;
+     }
+ 
+     #Motive a input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #Motive a input:hover{
+         height: 42px;
+         font-size: 29px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 42px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 260px;
+         width: 659px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 220px;
+         width: 659px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 26px;
+     }
+ 
+     #New-Announcements #anchor .a1:hover{
+         text-align: center;
+         color: red;
+         font-size:32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a2:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a3:hover{
+         text-align: center;
+         color: red;
+         font-size: 32px;
+         text-decoration: none;
+     }
+ 
+     #View-More input {
+         height: 32px;
+         font-size: 24px;
+     }
+ 
+     #View-More input:hover{
+         height: 42px;
+         font-size: 29px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 42px;
+     }
+ 
+     #BKNMU img {
+         height: 411px;
+         border-radius: 19px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 24px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 29px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 351px;
+         width: 36%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 42px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 400.5px;
+         width: 654px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 425px;
+         width: 294px;
+         border-radius: 15px;
+         border: 2px solid gold;
+     }
+ 
+     #Principal marquee{
+         height: 51px;
+         width: 298px;
+         border-radius: 24px;
+     }
+     #Principal h4 {
+         font-size: 42px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ 
+ @media only screen and (min-width: 1920px){
+     #Motive img {
+         height: 765px;
+         width: 100%;
+     }
+ 
+     #Motive marquee {
+         height: 209px;
+     }
+     #Motive h6 {
+         font-size: 48px;
+     }
+ 
+     #Motive a input {
+         height: 59px;
+         font-size: 42px;
+     }
+ 
+     #Motive a input:hover{
+         font-size: 51px;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 51px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 400px;
+         width: 819px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 42px;
+     }
+ 
+     #New-Announcements #anchor .a1:hover{
+         text-align: center;
+         color: red;
+         font-size:51px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a2:hover{
+         text-align: center;
+         color: red;
+         font-size: 51px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a3:hover{
+         text-align: center;
+         color: red;
+         font-size: 51px;
+         text-decoration: none;
+     }
+ 
+     #View-More input {
+         height: 59px;
+         font-size: 42px;
+     }
+ 
+     #View-More input:hover{
+         height: 69px;
+         font-size: 48px;
+         background-color: red;
+     }
+ 
+     #BKNMU h1 {
+         font-size: 69px;
+     }
+ 
+     #BKNMU img {
+         height: 510px;
+     }
+ 
+     div #BknmuBtn {
+         height: 51px;
+         font-size: 42px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 51px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 69px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 519px;
+         width: 42%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 69px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 524.8px;
+         width: 856px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 609px;
+         width: 446px;
+         border-radius: 20px;
+         border: 2px solid gold;
+     }
+ 
+     #Principal marquee{
+         height: 65px;
+         width: 429.5px;
+         border-radius: 29px;
+     }
+     #Principal h4 {
+         font-size: 59px;
+         background-color: rgb(31, 35, 245);
+     }
+ }
+ 
+ @media only screen and (min-width: 2560px){
+     #Motive img {
+         height: 1010px;
+         width: 100%;
+     }
+ 
+     #Motive marquee {
+         height: 209px;
+     }
+     #Motive h6 {
+         font-size: 42px;
+     }
+ 
+     #Motive a input {
+         height: 96px;
+         width: auto;
+         font-size: 42px;
+     }
+ 
+     #Motive a input:hover{
+         font-size: 51px;
+         color: red;
+     }
+ 
+     #New-Announcements legend {
+         border-radius: 29px;
+         font-size: 59px;
+     }
+ 
+     #New-Announcements fieldset {
+         height: 500px;
+         width: 500px;
+     }
+ 
+     #New-Announcements fieldset marquee{
+         height: 425px;
+         width: 1450px;
+     }
+ 
+     #New-Announcements fieldset marquee a{
+         font-size: 47px;
+     }
+ 
+     #New-Announcements #anchor .a1:hover{
+         text-align: center;
+         color: red;
+         font-size:51px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a2:hover{
+         text-align: center;
+         color: red;
+         font-size: 51px;
+         text-decoration: none;
+     }
+     #New-Announcements #anchor .a3:hover{
+         text-align: center;
+         color: red;
+         font-size: 51px;
+         text-decoration: none;
+     }
+ 
+     #View-More input {
+         height: 96px;
+         font-size: 42px;
+     }
+ 
+     #View-More input:hover{
+         height: 105.9px;
+         font-size: 51px;
+         /* color: white;
+         background-color: red; */
+     }
+ 
+     #BKNMU h1 {
+         font-size: 69px;
+     }
+ 
+     #BKNMU img {
+         height: 800px;
+     }
+ 
+     div #BknmuBtn {
+         height: 96px;
+         font-size: 42px;
+     }
+ 
+     div #BknmuBtn:hover{
+         background-color: red;
+         font-size: 51px;
+     }
+ 
+     #photo-Gallary h1 {
+         font-size: 69px;
+     }
+ 
+ 
+     #photo-Gallary marquee img{
+         height: 650px;
+         width: 42%;
+     }
+ 
+     #Video-Gallary h1 {
+         font-size: 69px;
+     }
+ 
+     #Video-Gallary iframe {
+         height: 752.8px;
+         width: 1260px;
+     }
+ 
+     #Principal {
+         padding-top: 2px;
+         background-color: rgb(106, 210, 247);
+         padding-bottom: 14px;
+     }
+ 
+     #Principal img {
+         height: 800px;
+         width: 600px;
+         border-radius: 20px;
+         border: 2px solid gold;
+     }
+ 
+     #Principal marquee{
+         height: 119px;
+         width: 600px;
+         border-radius: 29px;
+     }
+     #Principal h4 {
+         font-size: 86px;
+         background-color: rgb(31, 35, 245);
+     }
+ }

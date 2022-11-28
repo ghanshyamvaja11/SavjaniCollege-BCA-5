@@ -1,0 +1,984 @@
+.title{
+    background-color: red;
+    color: white;
+    border-radius: 29px;
+    font-size: 200%;
+}
+
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7{
+    background-color: rgba(210, 214, 92, 0.693);
+    padding: 6.9px;
+    padding-top: 0px;
+    border-radius: 29px;
+}
+
+.wc{
+    text-align: center;
+    background-color: skyblue;
+}
+
+h4{
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    background-color: rgb(184, 233, 125);
+}
+
+h3{
+    color: white;
+    background-color: blue;
+    display: inline;
+    font-size: 128%;
+    padding: 4px;
+    border-radius: 29px;
+    text-align: center;
+}
+
+#syllabus{
+    display: inline-block;
+    background-color: blue;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 29px;
+}
+
+.para{
+    font-size: 121%;
+}
+
+.hl{
+    color: yellow;
+    background: black;
+    padding: 2px;
+    border-radius: 29px;
+}
+
+.para:hover{
+    background: black;
+    color: white;
+}
+
+.imgs {
+    height: 425px;
+    width: 308px;
+    border-radius: 11px;
+}
+
+.state{
+    background-color: black;
+    color: goldenrod;
+    font-size: 186%;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 4px;
+    border-radius: 29px;
+}
+
+#sec1 strong{
+    background-color: blue;
+    color: white;
+    font-size: 150%;
+}
+
+.sec4-ss{
+    font-size: 141%;
+    background-color: darkblue;
+    border-radius: 24px;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
+    padding: 9px;
+}
+
+#BKNMU{
+    background-color: skyblue;
+}
+
+#sec5{
+    text-align: center;
+}
+
+#sec5 h2 a:hover{
+    color: red;
+}
+#sec6{
+    text-align: center;
+}
+
+#syllabus h2 a{
+    color: white;
+}
+
+#sec6 a input{
+    font-size: 121%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    color: white;
+    border-radius: 29px;
+    font-weight: bold;
+}
+
+#sec7{
+    text-align: center;
+}
+#sec7 a input{
+    font-size: 121%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    color: white;
+    border-radius: 29px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 320px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 159%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 15.9px;
+    }
+
+    .para{
+        font-size: 11.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .state{
+        font-size: 22px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 15.9px;
+    }
+
+    h3{
+        font-size: 11.9px;
+    }
+
+    #BKNMU{
+        font-size: 19.5px;
+        border-radius: 15px;
+    }
+
+    #sec6 a input{
+        font-size: 15.9px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 15.9px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 351px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 159%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 15.9px;
+    }
+
+    .para{
+        font-size: 11.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .state{
+        font-size: 22px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 15.9px;
+    }
+
+    h3{
+        font-size: 11.9px;
+    }
+
+    #BKNMU{
+        font-size: 19.5px;
+        border-radius: 15px;
+    }
+
+    #sec6 a input{
+        font-size: 15.9px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 15.9px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 159%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 19.9px;
+    }
+
+    .para{
+        font-size: 15.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .state{
+        font-size: 26px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 18.9px;
+    }
+
+    h3{
+        font-size: 15.5px;
+    }
+
+    #BKNMU{
+        font-size: 19.5px;
+        border-radius: 15px;
+    }
+
+    #sec6 a input{
+        font-size: 14.9px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 19.9px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 159%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 19.9px;
+    }
+
+    .para{
+        font-size: 15.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .state{
+        font-size: 26px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 18.9px;
+    }
+
+    h3{
+        font-size: 15.5px;
+    }
+
+    #BKNMU{
+        font-size: 19.5px;
+        border-radius: 15px;
+    }
+
+    #sec6 a input{
+        font-size: 15.9px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 19.9px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 225%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 24.9px;
+    }
+
+    .para{
+        font-size: 15.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 492px;
+        width: 366px;
+    }
+
+    .state{
+        font-size: 36px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 26.6px;
+    }
+
+    h3{
+        font-size: 22.5px;
+    }
+
+    #BKNMU{
+        font-size: 24.5px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 26.6px;
+    }
+
+    #sec6 a input{
+        font-size: 24.9px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 24.9px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 225%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 24.9px;
+    }
+
+    .para{
+        font-size: 12.8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 515px;
+        width: 392px;
+    }
+
+    .state{
+        font-size: 36px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 19.8px;
+    }
+
+    h3{
+        font-size: 26.6px;
+    }
+
+    #BKNMU{
+        font-size: 19.8px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 19.6px;
+    }
+
+    #sec6 a input{
+        font-size: 26.6px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 32.9px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 26.6px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 32.9px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 290%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 35.6px;
+    }
+
+    .para{
+        font-size: 29.8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 618px;
+        width: 452px;
+    }
+
+    .state{
+        font-size: 42px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 36.5px;
+    }
+
+    h3{
+        font-size: 36.6px;
+    }
+
+    #BKNMU{
+        font-size: 36.6px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 36.6px;
+    }
+
+    #syllabus h2 a{
+        font-size: 42.9px;
+    }
+
+    #sec6 a input{
+        font-size: 36.6px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 42.9px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 36.6px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 42.9px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 191%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 26.6px;
+    }
+
+    .para{
+        font-size: 15.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 450px;
+        width: 360px;
+    }
+
+    .state{
+        font-size: 29.8px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 29.8px;
+    }
+
+    h3{
+        font-size: 26.6px;
+    }
+
+    #BKNMU{
+        font-size: 29.8px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 24.5px;
+    }
+
+    #syllabus h2 a{
+        font-size: 29.8px;
+    }
+
+    #sec6 a input{
+        font-size: 24.5px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 29.4px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 24.5px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 29.4px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 191%;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 26.6px;
+    }
+
+    .para{
+        font-size: 15.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 450px;
+        width: 360px;
+    }
+
+    .state{
+        font-size: 29.8px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 29.8px;
+    }
+
+    h3{
+        font-size: 26.6px;
+    }
+
+    #BKNMU{
+        font-size: 29.8px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 24.5px;
+    }
+
+    #syllabus h2 a{
+        font-size: 29.8px;
+    }
+
+    #sec6 a input{
+        font-size: 24.5px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 29.4px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 24.5px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 29.4px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 42px;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 42.9px;
+    }
+
+    .para{
+        font-size: 19.5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 551px;
+        width: 450px;
+    }
+
+    .state{
+        font-size: 51px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 42.5px;
+    }
+
+    h3{
+        font-size: 42.5px;
+    }
+
+    #BKNMU{
+        font-size: 42.5px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 24.5px;
+    }
+
+    #syllabus h2 a{
+        font-size: 51.9px;
+    }
+
+    #sec6 a input{
+        font-size: 26.6px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 29.8px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 26.6px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 29.8px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1450px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 42px;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 42.9px;
+    }
+
+    .para{
+        font-size: 19.5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 551px;
+        width: 450px;
+    }
+
+    .state{
+        font-size: 51px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 42.5px;
+    }
+
+    h3{
+        font-size: 42.5px;
+    }
+
+    #BKNMU{
+        font-size: 42.5px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 24.5px;
+    }
+
+    #syllabus h2 a{
+        font-size: 51.9px;
+    }
+
+    #sec6 a input{
+        font-size: 26.6px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 29.8px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 26.6px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 29.8px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 42px;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 42.9px;
+    }
+
+    .para{
+        font-size: 19.5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 551px;
+        width: 450px;
+    }
+
+    .state{
+        font-size: 51px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 42.5px;
+    }
+
+    h3{
+        font-size: 42.5px;
+    }
+
+    #BKNMU{
+        font-size: 42.5px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 24.5px;
+    }
+
+    #syllabus h2 a{
+        font-size: 51.9px;
+    }
+
+    #sec6 a input{
+        font-size: 26.6px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 29.8px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 26.6px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 29.8px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .title{
+        background-color: red;
+        color: white;
+        border-radius: 29px;
+        font-size: 69px;
+    }
+
+    #sec1 strong{
+        background-color: blue;
+        color: white;
+        font-size: 42.9px;
+    }
+
+    .para{
+        font-size: 32.9px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .imgs{
+        height: 609px;
+        width: 459px;
+    }
+
+    .state{
+        font-size: 51px;
+        padding-bottom: 2.9px;
+    }
+
+    .wc{
+        font-size: 42.5px;
+    }
+
+    h3{
+        font-size: 42.5px;
+    }
+
+    #BKNMU{
+        font-size: 42.5px;
+        border-radius: 15px;
+    }
+
+    .sec4-ss{
+        font-size: 45.9px;
+    }
+
+    #syllabus h2 a{
+        font-size: 51.9px;
+        color: white;
+    }
+
+    #sec6 a input{
+        font-size: 32.9px;
+    }
+
+    #sec6 a input:hover{
+        background-color: red;
+        font-size: 36.9px;
+        cursor: pointer;
+    }
+
+    #sec7 a input{
+        font-size: 32.9px;
+    }
+
+    #sec7 a input:hover{
+        background-color: red;
+        font-size: 36.9px;
+        cursor: pointer;
+    }
+}

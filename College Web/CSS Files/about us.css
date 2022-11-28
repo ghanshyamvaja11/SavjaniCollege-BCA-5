@@ -1,0 +1,245 @@
+.Section{
+    background-color:rgba(210, 214, 92, 0.693);
+    border-radius: 29px;
+    padding: 6.9px;
+}
+
+#c-logo{
+    padding: 5px;
+    height: 258px;
+    width: 258px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+div h4{
+    font-family: Times New Roman, Times, serif;
+    font-size: 11.9px;
+    background-color: rgb(184, 233, 125);
+}
+
+div h4:hover{
+    background-color: black;
+    color: white;
+}
+
+.hl{
+    color: red;
+}
+
+#video{
+    padding-top: 2px;
+    height: 204px;
+    width: 298px;
+    border: 2px solid white;
+}
+
+@media only screen and (min-width: 320px){
+    #c-logo{
+    height: 258px;
+    width: 258px;
+}
+
+    div h4{
+    font-size: 11.9px;
+}
+
+    #video{
+    height: 173px;
+    width: 281px;
+    }
+}
+
+@media only screen and (min-width: 351px){
+    #c-logo{
+        height: 267px;
+        width: 267px;
+    }
+    
+    div h4{
+        font-size: 11.9px;
+    }
+
+    #video{
+        height: 173px;
+        width: 298px;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    #c-logo{
+        height: 267px;
+        width: 267px;
+    }
+    
+    div h4{
+        font-size: 11.9px;
+    }
+
+    #video{
+        height: 182px;
+        width: 298px;
+}
+}
+
+@media only screen and (min-width: 425px){
+    #c-logo{
+        height: 275px;
+        width: 275px;
+    }
+    
+    div h4{
+        font-size: 11.9px;
+    }
+
+    #video{
+        height: 206.6px;
+        width: 345px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #c-logo{
+        height: 320px;
+        width: 320px;
+    }
+    
+    div h4{
+        font-size: 15.9px;
+    }
+
+    #video{
+        height: 215.6px;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #c-logo{
+        height: 380px;
+        width: 380px;
+    }
+    
+    div h4{
+        font-size: 15.9px
+    }
+
+    #video{
+        height: 221px;
+        width: 359px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #c-logo{
+        height: 380px;
+        width: 380px;
+    }
+    
+    div h4{
+        font-size: 15.9px;
+    }
+
+    #video{
+        height: 281px;
+        width: 452px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #c-logo{
+        height: 380px;
+        width: 380px;
+    }
+    
+    div h4{
+        font-size: 15.9px;
+    }
+
+    #video{
+        height: 344.8px;
+        width: 559px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    #c-logo{
+        height: 380px;
+        width: 380px;
+    }
+    
+    div h4{
+        font-size: 15.9px;
+    }
+
+    #video{
+        height: 344.8px;
+        width: 559px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    #c-logo{
+        height: 425px;
+        width: 425px;
+    }
+    
+    div h4{
+        font-size: 19.9px;
+        background-color: rgb(184, 233, 125);
+    }
+
+    #video{
+        height: 400.5px;
+        width: 654px;
+    }
+}
+
+@media only screen and (min-width: 1450px){
+    #c-logo{
+        height: 425px;
+        width: 425px;
+    }
+    
+    div h4{
+        font-size: 15.9px;
+    }
+
+    #video{
+        height: 400.5px;
+        width: 654px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    #c-logo{
+        height: 510px;
+        width: 509px;
+    }
+    
+    div h4{
+        font-size: 24.9px;
+        background-color: rgb(184, 233, 125);
+    }
+
+    #video{
+        height: 524.8px;
+        width: 856px;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    #c-logo{
+        height: 610px;
+        width: 609px;
+    }
+    
+    div h4{
+        font-size: 32.9px;
+    }
+
+    #video{
+        height: 752px;
+        width: 1260px;
+    }
+}

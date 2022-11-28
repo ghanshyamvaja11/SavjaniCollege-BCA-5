@@ -1,0 +1,40 @@
+#show{
+    background-color: skyblue;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 6px;
+    text-align: left;
+}
+
+#show strong{
+    color: white;
+    font-size: 19px;
+}
+
+#show span{
+    max-width: 50%;
+}
+
+#first{
+    background-color: green;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 6px;
+    text-align: left;
+}
+
+#first strong{
+    color: white;
+    font-size: 19px;
+}
+
+#first span{
+    color: white;
+    max-width: 50%;
+}
+
+#feedbacks{
+    background-color: rgb(248, 238, 131);
+    height: 400px;
+    width: 400px;
+}

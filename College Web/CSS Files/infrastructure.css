@@ -1,0 +1,499 @@
+.Section{
+    border-radius: 29px;
+    padding: 6.9px;
+    padding-top: 0%;
+}
+section .Section-head{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: red;
+    font-size: 29px;
+    border-radius: 19.5px;
+    padding-top: 1px;
+    padding-bottom: 6.5px;
+}
+
+div .imgs{
+    height: 290px;
+    width: 470px;
+    border: 2px solid white;
+    border-radius: 9px;
+    text-align: center;
+}
+
+div h4{
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15.5px;
+    background-color: rgb(184, 233, 125);
+}
+
+
+.Section{
+    background-color: rgba(210, 214, 92, 0.693);
+}
+
+div h4:hover{
+    background-color: black;
+    color: white;
+}
+
+strong{
+    color: yellow;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 19px;
+}
+
+.ss{
+    background-color: rgba(208, 228, 118, 0.693);
+    font-size: 19px;
+}
+.ss:hover{
+    background-color: black;
+    color: white;
+}
+
+#ClassRoom span{
+    color: red;
+}
+
+#Computer-Lab span{
+    color: rgb(220, 6, 6);
+}
+
+.hl{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15.9px;
+    color: red;
+}
+
+#Name{
+    font-size: 19.9px;
+}
+
+@media only screen and (min-width: 320px){
+    #Name{
+        font-size: 15.9px;
+    }
+
+    div .imgs{
+        height: 200px;
+        width:  281px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.9px;
+            background-color: rgb(184, 233, 125);
+    }
+    
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 11.9px;
+        color: red;
+    }
+
+    strong{
+        font-size: 15.9px;
+    }
+
+    .ss{
+        font-size: 11.9px;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    #Name{
+        font-size: 15.9px;
+    }
+
+    div .imgs{
+        height: 240px;
+        width:  338px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 11.9px;
+        color: red;
+    }
+
+    strong{
+        font-size: 15.9px;
+    }
+
+    .ss{
+        font-size: 11.9px;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    #Name{
+        font-size: 19.9px;
+    }
+
+    div .imgs{
+        height: 260px;
+        width: 380px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15.5px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 15.5px;
+        color: red;
+    }
+
+    strong{
+        font-size: 19.9px;
+    }
+
+    .ss{
+        font-size: 15.9px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #Name{
+        font-size: 19.9px;
+    }
+
+    div .imgs{
+        height: 290px;
+        width:  450px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15.5px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 15.5px;
+        color: red;
+    }
+
+    strong{
+        font-size: 19.9px;
+    }
+
+    .ss{
+        font-size: 15.5px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #Name{
+        font-size: 19.9px;
+    }
+
+    div .imgs{
+        height: 380px;
+        width:  551px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15.5px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 15.5px;
+        color: red;
+    }
+
+    strong{
+        font-size: 19.9px;
+    }
+
+    .ss{
+        font-size: 15.5px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #Name{
+        font-size: 24.9px;
+    }
+
+    div .imgs{
+        height: 360px;
+        width:  560px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 19.9px;
+        color: red;
+    }
+
+    strong{
+        font-size: 24.9px;
+    }
+
+    .ss{
+        font-size: 19.9px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #Name{
+        font-size: 24.9px;
+    }
+
+    div .imgs{
+        height: 360px;
+        width:  560px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 19.9px;
+        color: red;
+    }
+
+    strong{
+        font-size: 24.9px;
+    }
+
+    .ss{
+        font-size: 19.9px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    #Name{
+        font-size: 24.9px;
+    }
+
+    div .imgs{
+        height: 360px;
+        width:  560px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 19.9px;
+        color: red;
+    }
+
+    strong{
+        font-size: 24.9px;
+    }
+
+    .ss{
+        font-size: 19.9px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    #Name{
+        font-size: 29.9px;
+    }
+
+    center .Section-head{
+        font-size: 42px;
+    }
+
+    div .imgs{
+        height: 410px;
+        width: 620px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 22.5px;
+        color: red;
+    }
+
+    strong{
+        font-size: 29.9px;
+    }
+
+    .ss{
+        font-size: 24.9px;
+    }
+}
+
+@media only screen and (min-width: 1450px){
+    #Name{
+        font-size: 29.9px;
+    }
+
+    center .Section-head{
+        font-size: 42px;
+    }
+
+    div .imgs{
+        height: 410px;
+        width: 620px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 22.5px;
+        color: red;
+    }
+
+    strong{
+        font-size: 29.9px;
+    }
+
+    .ss{
+        font-size: 24.9px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    #Name{
+        font-size: 29.9px;
+    }
+
+    center .Section-head{
+        font-size: 42.9px;
+    }
+
+    div .imgs{
+        height: 605px;
+        width:  902px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 24.9px;
+        color: red;
+    }
+
+    strong{
+        font-size: 29.9px;
+    }
+
+    .ss{
+        font-size: 24.9px;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    #Name{
+        font-size: 36.9px;
+    }
+
+    center .Section-head{
+        font-size: 69px;
+    }
+
+    div .imgs{
+        height: 650px;
+        width:  960px;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    div h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32.9px;
+    background-color: rgb(184, 233, 125);
+    }
+
+    .hl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 32.9px;
+        color: red;
+    }
+
+    strong{
+        font-size: 36.9px;
+    }
+
+    .ss{
+        font-size: 32.9px;
+    }
+}

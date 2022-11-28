@@ -1,0 +1,32 @@
+#sec{
+    background-color: skyblue;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+div h4{
+    color: white;
+    background-color: red;
+    font-size: 150%;
+}
+a input{
+    text-decoration: none;
+    color: red;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 9px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+a input:hover{
+    background-color: red;
+}
+
+@media only screen and (min-width: 2560px) {
+    div h4{
+        font-size: 42.9px;
+    }
+}

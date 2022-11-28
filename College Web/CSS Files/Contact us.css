@@ -1,0 +1,479 @@
+#Address{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+#map
+{
+    height: 310px;
+    width: 40%;
+    cursor: pointer;
+}
+
+#sec #Address a{
+    color: black;
+    font-size: 19.9px;
+    background-color: white;
+    padding-top: 4px;
+}
+
+#sec  #Address .fa-youtube:hover{
+    color: red;
+    background-color: white;
+}
+
+#sec #Address .fa-facebook:hover{
+    color: blue;
+    background-color: white;
+}
+
+#email{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 11px;
+    background-color: transparent;
+    border: none;
+}
+
+h1{
+    background-color: red;
+    border-radius: 6px;
+}
+
+h2{
+    color: gold;
+    background-color: black;
+}
+
+.address{
+    display: inline-block;
+    background-color: black;
+}
+
+#phone, #Fax, #Email{
+    color: yellow;
+    background-color: black;
+}
+
+.Contact{
+    background-color: black;
+}
+
+#sec #Address a{
+    background-color: transparent;
+    color: white;
+}
+
+form{
+    display: inline-block;
+    font-size: 19px;
+    border: transparent;
+    text-align: left;
+    height: 40%;
+}
+
+form fieldset{
+    background-color: skyblue;
+    border-radius: 29px;
+}
+
+form fieldset legend{
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    font-size: 29px;
+    border-radius: 15px;
+}
+
+form strong{
+    padding-right: 9px;
+}
+
+#name, #email2{
+    height: 29px;
+    width: 229px;
+    background-color: white;
+}
+
+#query{
+    height: 36px;
+    width: 236px;
+    background-color: white;
+}
+
+#description{
+    height: 96px;
+    width: 231px;
+    resize: none;
+    background-color: white;
+}
+
+#Submit{
+    color: black;
+    border-radius: 19px;
+    font-size: 19px;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+}
+
+#Submit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+#feedback_link{
+    background-color: rgb(248, 238, 131);
+    padding: 19.9px;
+    border-radius: 15.9px;
+}
+
+@media only screen and (min-width: 320px) {
+    #Address{
+        height: 258px;
+        width: 265px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 250px;
+        width: 258px;
+    }
+    #sec{
+        padding-left: 19px;
+        padding-top: 15px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 351px) {
+    #Address{
+        height: 258px;
+        width: 281px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 280px;
+        width: 272.9px;
+    }
+    #sec{
+        padding-left: 26px;
+        padding-top: 15px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) {
+    #Address{
+        height: 258px;
+        width: 281px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 280px;
+        width: 272.9px;
+    }
+    #sec{
+        padding-left: 36px;
+        padding-top: 15px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 425px) {
+    #Address{
+        height: 267px;
+        width: 290px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.49px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 280px;
+        width: 282px;
+    }
+    #sec{
+        padding-left: 59px;
+        padding-top: 15px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+    #Address{
+        height: 267px;
+        width: 290px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+    }
+
+    #sec #Address strong{
+        font-size: 11.9px;
+    }
+    
+    #map
+    {
+        height: 280px;
+        width: 282px;
+    }
+    #sec{
+        padding-left: 26%;
+        padding-top: 15px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    #Address{
+        height: 258px;
+        width: 265px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 250px;
+        width: 265px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 15%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #Address{
+        height: 281px;
+        width: 285px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 272.9px;
+        width: 285px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 20.9%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #Address{
+        height: 281px;
+        width: 285px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.9px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 272.9px;
+        width: 285px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 20.9%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #Address{
+        height: 281px;
+        width: 285px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.9px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 272.9px;
+        width: 285px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 24.9%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #Address{
+        height: 326px;
+        width: 351px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14.6px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 316.5px;
+        width: 351px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 24.9%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    #Address{
+        height: 326px;
+        width: 351px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14.6px;
+    }
+
+    #sec #Address strong{
+        font-size: 11px;
+    }
+    
+    #map
+    {
+        height: 316.5px;
+        width: 351px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 24.9%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #Address{
+        height: 425px;
+        width: 465px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19.1px;
+    }
+
+    #sec #Address strong{
+        font-size: 19.9px;
+    }
+    
+    #map
+    {
+        height: 414px;
+        width: 465px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 24.9%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    #Address{
+        height: 515px;
+        width: 528px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22.5px;
+    }
+
+    #sec #Address strong{
+        font-size: 24.9px;
+    }
+    
+    #map
+    {
+        height: 504px;
+        width: 528px;
+    }
+    #sec{
+        padding-top: 15px;
+        display: inline-flex;
+        padding-left: 29.8%;
+        padding-right: 18%;
+        align-items: center;
+        justify-items: center;
+    }
+}

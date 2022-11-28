@@ -1,0 +1,22 @@
+main{
+    background-color:  rgba(210, 214, 92, 0.693);
+    border-radius: 29px;
+}
+
+fieldset{
+    background-color: blue;
+    height: 266px;
+}
+
+legend{
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 26.6px;
+    padding: 6px;
+    border-radius: 29px;
+}
+a{
+    color: White;
+    font-size: 19.9px;
+}

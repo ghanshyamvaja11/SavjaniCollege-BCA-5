@@ -1,0 +1,40 @@
+form{
+    display: inline-block;
+}
+fieldset{
+    background-color: yellow;
+    border-radius: 29px;
+}
+
+legend{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-size: 19.9px;
+    padding: 6px;
+    border-radius: 29px;
+}
+
+.fields{
+    height: 29px;
+    width: 260px;
+}
+
+input[type="submit"]{
+    font-size: 19.9px;
+    color: black;
+    background-color: white;
+    border-radius: 29px;
+    font-weight: bolder;
+}
+
+input[type="submit"]:hover{
+    color: white;
+    background-color: green;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

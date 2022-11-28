@@ -1,0 +1,41 @@
+#sec{
+    display: block;
+}
+
+strong{
+    font-size: 15px;
+}
+
+h2{
+background-color: red;
+font-size: 29px;
+border-radius: 29px;
+color: white;
+}
+
+#show{
+background-color: skyblue;
+border-radius: 15px;
+display: inline-block;
+padding: 6px;
+text-align: left;
+}
+
+#form{
+background-color: 
+rgba(210, 214, 92, 0.693);
+border-radius: 15px;
+}
+
+#solved{
+background-color: red;
+border-radius: 15px;
+font-size: 19px;
+font-weight: bold;
+color: white;
+}
+
+#solved:hover{
+background-color: green;
+cursor: pointer;
+}

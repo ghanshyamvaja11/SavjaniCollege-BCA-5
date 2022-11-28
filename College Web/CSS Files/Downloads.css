@@ -1,0 +1,82 @@
+#table{
+    background-color: rgba(210, 214, 92, 0.693);;
+padding:19px;
+border-radius: 29px;
+}
+
+#table #title, #table #link{
+    color: white;
+    font-size: large;
+    padding: 9px;
+    background-color: red;
+}
+
+@media only screen and (max-width: 1450px){
+    #table table{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: blue;
+    }
+    
+    #table #title, #table #link{
+        color: white;
+        font-size: small;
+        padding: 9px;
+        background-color: red;
+    }
+
+    #table table tr th{
+        font-size: 24px;
+        color: white;
+        font-weight: bold;
+        padding: 2px;
+        border: 2px solid white;
+        background-color: black;
+    }
+    
+    #table table tr td{
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    th a input{
+        font-size: 19px;
+        cursor: pointer;
+    }
+    
+    th a input:hover{
+        background-color: red;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 1451px) {
+    
+#table table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+}
+
+#table table tr th{
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    border: 2px solid white;
+    background-color: black;
+}
+
+#table table tr td{
+    color: white;
+    font-weight: bold;
+}
+
+th a input{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+th a input:hover{
+    background-color: red;
+    color: white;
+}
+}

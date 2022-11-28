@@ -1,0 +1,1278 @@
+header img{
+    margin: auto;
+    height: 180px;
+    width: 1200px;
+}
+
+#Login{
+    Height: 25.4%; 
+    Width: 24.9%; 
+    border-radius: 29px;
+    background-color: blue;
+    padding-left: 6px; 
+    padding-right: 5px;
+}
+
+#header div #Login:hover{
+    background-color: red;
+}
+
+.navbar{
+    color: red;
+    background-color: darkblue;
+    font-size: 12px;
+    height: 50px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: sticky;
+}
+
+.navbar a{
+    height: 24px;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    width: auto; 
+    margin: 12px auto;
+    text-align: center;
+    padding-top: .1px;
+    padding-bottom: 9.6px;
+}
+
+.navbar a:hover{
+color: yellow;
+background-color: black;
+border-radius: 51px;
+}
+
+#Quick-Links{
+    text-align: center;
+    color: white;
+    background-color: rgb(215, 215, 111);
+    border-radius: 29px;
+}
+#Quick-Links h1{
+    background-color: red;
+    border-radius: 29px;
+}
+#Quick-Links a img{
+    height: 96px;
+    width: 416px;
+    padding-inline: 9px;
+    background-color: white;
+    border-radius: 24px;
+}
+
+#Contact{
+    font-size: 29px;
+    background-color: black;
+    padding: 29px;
+}
+
+#Contact strong, #Contact a{
+    font-size: 29px;
+    color: white;
+}
+
+#Contact span{
+    color: skyblue;
+}
+
+.fa{
+    font-size: 29px;
+    height: 29px;
+    width: 29px;
+}
+
+#headerNav{
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: yellow;
+}
+
+#headerNav a img{
+    display: inline-block;
+    background-color: transparent;
+    height: 29px;
+    width: 29px;
+    border: 4px solid blue;
+    border-radius: 6px;
+    color: blue;
+}
+
+#top{
+    display: block;
+    color: blue;
+    font-size: larger;
+    background-color: transparent;
+}
+
+#copyright{
+    font-size: 24px;
+    color: white;
+    background-color: rgba(39, 22, 226, 0.974);
+    padding: 29px;
+}
+
+
+/*Responsiveness*/
+@media only screen and (min-width: 320px){
+    header img {
+        margin: auto;
+        height: 69px;
+        width: 308px;
+    }
+    
+    nav a{
+        padding-left: 15px;
+        font-size: 11px;
+    }
+
+    .navbar {
+        height: 26px;
+        font-size: 19px;
+        padding-bottom: 11px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 2.2px;
+        color: white;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+        width: auto;
+        margin: 12px auto;
+        font-size: 8.6px;
+        padding-inline: 1.5px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 19px;
+    }
+    
+    #Quick-Links a img {
+        height: 24px;
+        width: 69px;
+        padding-inline: 9px;
+    }
+
+    #Contact{
+        font-size: 0px;
+        padding-inline: 29px;
+        text-decoration: none;
+        padding-top: 19px;
+        padding-bottom: 1.5px;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 10.4px;
+        justify-content: space-between;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 15px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 15px;
+    }
+
+    #Contact .fa-youtube:hover{
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 8.6px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 351px){
+    header img {
+        margin: auto;
+        height: 69px;
+        width: 308px;
+    }
+    
+    nav a{
+        padding-left: 15px;
+        font-size: 11px;;
+    }
+
+    .navbar {
+        height: 26px;
+        font-size: 19px;
+        padding-bottom: 11px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 2.9px;
+        color: white;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+        width: auto;
+        margin: 12px auto;
+        font-size: 8.60px;
+        padding-inline: 1.5px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 19px;
+    }
+    
+    #Quick-Links a img {
+        height: 24px;
+        width: 69px;
+        padding-inline: 9px;
+    }
+
+    #Contact{
+        font-size: 0px;
+        padding-inline: 29px;
+        text-decoration: none;
+        padding-top: 19px;
+        padding-bottom: 1.5px;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 10.4px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 15px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 15px;
+    }
+
+    #Contact .fa-youtube:hover{
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 8.6px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    header img {
+        margin: auto;
+        height: 61px;
+        width: 353px;
+    }
+    
+    nav a{
+        padding-left: 15px;
+        font-size: 11px;;
+    }
+
+    .navbar {
+        height: 29px;
+        font-size: 19px;
+        padding-bottom: 11px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 2px;
+        color: white;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+        width: auto;
+        margin: 12px auto;
+        font-size: 9px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 19px;
+    }
+    
+    #Quick-Links a img {
+        height: 22px;
+        width: 89px;
+        padding-inline: 9px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 24px;
+        width: 92px;
+        padding-inline: 9px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 29px;
+        text-decoration: none;
+        padding: 6.5px;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 15px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 15px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 15px;
+    }
+
+    #Contact .fa-youtube:hover{
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 9.6px;
+        padding: 2px;
+    }
+    
+}
+
+@media only screen and (min-width: 475px){
+    header img {
+        margin: auto;
+        height: 69px;
+        width: 425px;
+    }
+    
+    nav a{
+        padding-left: 15px;
+        font-size: 11px;;
+    }
+
+    .navbar {
+        height: 29px;
+        font-size: 19px;
+        padding-bottom: 11.9px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 6px;
+        color: white;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+        width: auto;
+        margin: 12px auto;
+        font-size: 9px;
+        font-size: 11px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 19px;
+    }
+    
+    #Quick-Links a img {
+        height: 19px;
+        width: 86px;
+        padding-inline: 9px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 29px;
+        text-decoration: none;
+        padding: 6.5px;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 15px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 15px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 15px;
+    }
+
+    #Contact .fa-youtube:hover{
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 9.6px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    header img {
+        margin: auto;
+        height: 83px;
+        width: 463px;
+    }
+
+    nav a{
+        padding-left: 15px;
+        font-size: 11px;
+    }
+
+    .navbar {
+        height: 32.9px;
+        font-size: 19px;
+        padding-bottom: 9px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 4px;
+        color: white;
+        text-decoration: none;
+        padding-left: 6px;
+        padding-right: 9px;
+        display: inline-block;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 19px;
+    }
+    
+    #Quick-Links a img{
+        height: 29px;
+        width: 141px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 32px;
+        width: 150px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 29px;
+        text-decoration: none;
+        padding: 9px;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 19px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 19px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 19px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 24px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 24px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 11px;
+        padding: 2px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px){
+    header img {
+        margin: auto;
+        height: 117px;
+        width: 695px;
+    }
+
+    nav a{
+        padding-left: 15px;
+        font-size: 14px;;
+    }
+
+    .navbar {
+        height: 29.9px;
+        font-size: px;
+        padding-bottom: 19px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 14.9px;
+        color: white;
+        font-size: 19px;
+        text-decoration: none;
+        padding-left: 6px;
+        padding-right: 9px;
+        display: inline-block;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 29px;
+    }
+    
+    #Quick-Links a img{
+        height: 42px;
+        width: 180px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 45px;
+        width: 199px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 42px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 29px;
+        padding-left: 19px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 15px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 15px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 24px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 24px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 19px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    header img {
+        margin: auto;
+        height: 128px;
+        width: 836px;
+    }
+    
+    #header div #Login{
+    Height: 32px; 
+    Width: 69px; 
+    border-radius: 29px;
+    background-color: blue;
+    padding-left: 6px; 
+    padding-right: 5px;
+}
+
+#header div #Login:hover{
+    background-color: red;
+}
+
+    nav a{
+        padding-left: 15px;
+        font-size: 14px;;
+    }
+
+    .navbar {
+        height: 29px;
+        font-size: px;
+        padding-bottom: 22.5px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 15px;
+        color: white;
+        font-size: 19px;
+        text-decoration: none;
+        padding-left: 31px;
+        padding-right: 31px;
+        display: inline-block;
+        padding-inline: 15px;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 29px;
+    }
+    
+    #Quick-Links a img{
+        height: 42px;
+        width: 180px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 45px;
+        width: 199px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 42px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 29px;
+        padding-left: 19px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 19px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 19px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 29px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 29px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 19px;
+        padding: 2px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px){
+    header img {
+        margin: auto;
+        height: 147px;
+        width: 860px;
+    }
+
+    nav a{
+        padding-left: 15px;
+        font-size: 19px;;
+    }
+
+    .navbar {
+        height: 29px;
+        padding-bottom: 29px;
+        padding-top: 6.5px;
+    }
+
+    .navbar a {
+        height: 15.9px;
+        color: white;
+        font-size: 19.9px;
+        text-decoration: none;
+        padding-left: 31px;
+        padding-right: 31px;
+        display: inline-block;
+        padding-inline: 19px;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 42px;
+    }
+    
+    #Quick-Links a img{
+        height: 69px;
+        width: 260px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 81px;
+        width: 290px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 42px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 32px;
+        padding-left: 19px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 19.9px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 19.9px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 29px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 29px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 29px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    header img {
+        margin: auto;
+        height: 147px;
+        width: 860px;
+    }
+
+    nav a{
+        padding-left: 15px;
+        font-size: 19px;;
+    }
+
+    .navbar {
+        height: 24px;
+        padding-bottom: 29px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 14.9px;
+        color: white;
+        font-size: 18.9px;
+        text-decoration: none;
+        padding-left: 31px;
+        padding-right: 31px;
+        display: inline-block;
+        padding-inline: 19px;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 42px;
+    }
+    
+    #Quick-Links a img{
+        height: 69px;
+        width: 260px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 81px;
+        width: 290px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 42px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 32px;
+        padding-left: 19px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 19.9px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 19.9px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 29px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 38px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 29px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    header img {
+        margin: auto;
+        height: 150px;
+        width: 1050px;
+    }
+    
+    #header div #Login{
+    Height: 36px; 
+    Width: 86px; 
+    border-radius: 29px;
+    background-color: blue;
+    padding-left: 6px; 
+    padding-right: 5px;
+}
+
+#header div #Login:hover{
+    background-color: red;
+}
+
+    nav a{
+        padding-left: 15px;
+        font-size: 19px;;
+    }
+
+    .navbar {
+        height: 29px;
+        padding-bottom: 29px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 19px;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        padding-left: 31px;
+        padding-right: 31px;
+        display: inline-block;
+        padding-inline: 19px;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 42px;
+    }
+    
+    #Quick-Links a img{
+        height: 69px;
+        width: 410px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 81px;
+        width: 519px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 26px;
+        padding-left: 19px;
+        border-radius: 6px;
+        padding-inline: 42px;
+        padding: 0%;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 22.5px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 22.5px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 29px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 29px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 29px;
+        padding: 2px;
+    }
+    
+}
+
+@media only screen and (min-width: 1450px){
+    header img {
+        margin: auto;
+        height: 150px;
+        width: 1050px;
+    }
+    
+    #header div #Login{
+    Height: 36px; 
+    Width: 86px; 
+    border-radius: 29px;
+    background-color: blue;
+    padding-left: 6px; 
+    padding-right: 5px;
+}
+
+#header div #Login:hover{
+    background-color: red;
+}
+
+    nav a{
+        padding-left: 15px;
+        font-size: 19px;;
+    }
+
+    .navbar {
+        height: 29px;
+        padding-bottom: 29px;
+        padding-top: .1px;
+    }
+
+    .navbar a {
+        height: 19px;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        padding-left: 31px;
+        padding-right: 31px;
+        display: inline-block;
+        padding-inline: 19px;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 42px;
+    }
+    
+    #Quick-Links a img{
+        height: 69px;
+        width: 410px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 81px;
+        width: 519px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 24px;
+        padding-left: 19px;
+        border-radius: 6px;
+        padding-inline: 42px;
+        padding: 0%;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 22.5px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 22.5px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 29px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 29px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 29px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    header img {
+        margin: auto;
+        height: 225px;
+        width: 1436px;
+    }
+    
+    #header div #Login{
+    Height: 42px; 
+    Width: 92px; 
+    border-radius: 29px;
+    background-color: blue;
+    padding-left: 6px; 
+    padding-right: 5px;
+}
+
+#header div #Login:hover{
+    background-color: red;
+}
+
+    nav a{
+        padding-left: 15px;
+        font-size: 19px;;
+    }
+
+    .navbar {
+        height: 29px;
+        padding-bottom: 54.9px;
+        padding-top: 9px;
+    }
+
+    .navbar a {
+        height: 38px;
+        color: white;
+        font-size: 32px;
+        text-decoration: none;
+        padding-left: 31px;
+        padding-right: 31px;
+        display: inline-block;
+        padding-inline: 29px;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 69px;
+    }
+    
+    #Quick-Links a img{
+        height: 119px;
+        width: 528px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 72px;
+        width: 542px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 42px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 59px;
+        padding-inline: 59px;
+    }
+
+    #Contact .fa-youtube{
+        font-size: 42.5px;
+    }
+
+    #Contact .fa-facebook{
+        font-size: 42.5px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 46.5px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 46.5px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 45px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    header img {
+        margin: auto;
+        height: 260px;
+        width: 1890px;
+    }
+    
+    #header div #Login{
+    Height: 51px; 
+    Width: 105px; 
+    border-radius: 29px;
+    background-color: blue;
+    padding-left: 6px; 
+    padding-right: 5px;
+}
+
+#header div #Login:hover{
+    background-color: red;
+}
+
+    nav a{
+        padding-left: 15px;
+        font-size: 19px;
+    }
+
+    .navbar {
+        height: 29px;
+        padding-bottom: 59px;
+        padding-top: 0.1px;
+    }
+
+    .navbar a {
+        height: 48.46px;
+        color: white;
+        font-size: 42px;
+        text-decoration: none;
+        padding-left: 31px;
+        padding-right: 31px;
+        display: inline-block;
+        padding-inline: 29px;
+        width: auto;
+        margin: 12px auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    #Quick-Links h1 {
+        background-color: darkblue;
+        font-size: 69px;
+    }
+    
+    #Quick-Links a img{
+        height: 150px;
+        width: 650px;
+        padding-inline: 15px;
+    }
+
+    #Quick-Links a img:hover{
+        height: 155px;
+        width: 690px;
+    }
+
+    #Contact{
+        font-size: 1px;
+        padding-inline: 42px;
+        text-decoration: none;
+    }
+
+    #Contact strong,#Contact a{
+        font-size: 42.9px;
+        padding-inline: 59px;
+    }
+
+    #Contact .fa-youtube:hover{
+        font-size: 51.9px;
+        color: red;
+    }
+
+    #Contact .fa-facebook:hover{
+        font-size: 51.9px;
+        color: blue;
+    }
+
+    #copyright{
+        font-size: 42.9px;
+        padding: 2px;
+    }
+    
+}
