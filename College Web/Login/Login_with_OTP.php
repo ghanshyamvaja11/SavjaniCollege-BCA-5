@@ -73,7 +73,7 @@ $Username = $_POST['Username'];
     $OTP_No ="Your OTP is : " . $OTP;
     //$headers = "from : " . $from;
     mail($to, $subject, $OTP_No);
-    header("location: Varify_Login_OTP.php", true, 301);
+    header("location: Verify_Login_OTP.php", true, 301);
 }
 else{
     echo "<center><h4 style='color: red; display: block-inline;'>Enter Valid Username.</h4></center>";
