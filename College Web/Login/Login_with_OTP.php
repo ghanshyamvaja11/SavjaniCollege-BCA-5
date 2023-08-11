@@ -128,8 +128,8 @@ else{
         mysqli_query($conn, $sql);
         $_SESSION['Login_type'] = $_POST['Login_type'];
         if($Username == $Match['Endorsement_No']){
-        $_SESSION['Login_type'] = $Match['Login_type'];
-        $_SESSION['Username'] = $Match['Endorsement_No'];
+        
+$_SESSION['Login_type'] = $_POST['Login_type'];        $_SESSION['Username'] = $Match['Endorsement_No'];
         $_SESSION['Password'] = $Match['Password'];
         $_SESSION['OTP'] = $Match['OTP'];
             
