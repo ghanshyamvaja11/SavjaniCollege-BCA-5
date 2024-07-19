@@ -73,7 +73,7 @@ $Username = $_POST['Username'];
     $OTP_No ="Your OTP is : " . $OTP;
     //$headers = "from : " . $from;
     mail($to, $subject, $OTP_No);
-    header("location: Varify_Login_OTP.php", true, 301);
+    header("location: Verify_Login_OTP.php", true, 301);
 }
 else{
     echo "<center><h4 style='color: red; display: block-inline;'>Enter Valid Username.</h4></center>";
@@ -128,8 +128,8 @@ else{
         mysqli_query($conn, $sql);
         $_SESSION['Login_type'] = $_POST['Login_type'];
         if($Username == $Match['Endorsement_No']){
-        $_SESSION['Login_type'] = $Match['Login_type'];
-        $_SESSION['Username'] = $Match['Endorsement_No'];
+        
+$_SESSION['Login_type'] = $_POST['Login_type'];        $_SESSION['Username'] = $Match['Endorsement_No'];
         $_SESSION['Password'] = $Match['Password'];
         $_SESSION['OTP'] = $Match['OTP'];
             
